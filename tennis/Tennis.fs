@@ -82,6 +82,7 @@ let rec driver state =
         let input = Console.ReadLine()
         driver (readInput input state)
 
+
 let start =
     let initialState = Normal {
         P1=Love
